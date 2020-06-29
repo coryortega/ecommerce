@@ -89,7 +89,7 @@ class signIn extends Component {
 
                         <div className='links'>
                             <Link to='/recovery'>
-                                Reset Password
+                                Forgot password?
                             </Link>
                         </div>
 
