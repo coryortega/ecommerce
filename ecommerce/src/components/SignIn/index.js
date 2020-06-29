@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Buttons from './../forms/Button'
 import { signInWithGoogle, auth } from './../../firebase/utils'
 import './styles.scss';
 
 import AuthWrapper from './../AuthWrapper';
 import FormInput from './../forms/FormInput';
-import Button from './../forms/Button';
 
 const initialState = {
     email: '',
@@ -86,6 +86,13 @@ class signIn extends Component {
                                 </Buttons>
                             </div>
                         </div>
+
+                        <div className='links'>
+                            <Link to='/recovery'>
+                                Reset Password
+                            </Link>
+                        </div>
+
                     </form>
                 </div>
             </AuthWrapper>

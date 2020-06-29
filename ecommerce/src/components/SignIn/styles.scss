@@ -2,3 +2,14 @@
 .socialSignin {
     margin: .7rem auto 0;
 }
+
+.links {
+    display: block;
+    width: 100%;
+    margin: 1.5rem auto 0;
+    text-decoration: underline;
+
+    a {
+        color: blue;
+    }
+}
