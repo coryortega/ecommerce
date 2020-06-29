@@ -41,7 +41,7 @@ class Signup extends Component {
             const err = ['Passwords do not match'];
             this.setState({
                 errors: err
-            })
+            });
             return;
         }
 
